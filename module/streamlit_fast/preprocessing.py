@@ -1,5 +1,3 @@
-from multiprocessing import Pipe
-import tarfile
 import nltk
 import numpy as np
 import pandas as pd

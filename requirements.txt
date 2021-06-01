@@ -1,7 +1,8 @@
 numpy
 pandas
-texthero
 sklearn
-tensorflow
 keras
 nltk
+texthero
+joblib
+unicodedata
