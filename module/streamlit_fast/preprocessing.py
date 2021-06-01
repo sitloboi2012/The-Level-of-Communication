@@ -1,12 +1,17 @@
+from multiprocessing import Pipe
+import tarfile
 import nltk
 import numpy as np
 import pandas as pd
-import texthero as hero
+#import texthero as hero
 import streamlit as st
+import re
 
 from nltk.tokenize import punkt, word_tokenize
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.model_selection import train_test_split, KFold
+from unicodedata import normalize as unicode_normalize
+from sklearn.pipeline import Pipeline
 
 
 class Preprocessing:
@@ -42,7 +47,6 @@ class Preprocessing:
             y_train, y_test = y[train], y[test]
 
         return x_train, x_test, y_train, y_test
-
 
 class Validation:
     def __init__(self):
