@@ -1,8 +1,0 @@
-numpy
-pandas
-sklearn
-keras
-nltk
-texthero
-joblib
-unicodedata
