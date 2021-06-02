@@ -1,1 +1,0 @@
-web: sh setup.sh && streamlit run C:\Users\huyvo\OneDrive - University of South Australia\The-Level-of-Communication\module\streamlit_fast\main.py
