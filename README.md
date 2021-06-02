@@ -25,4 +25,4 @@ This would include: __Job Levels, Job Categories, Job Skills and Communication A
   6. And then base on the two __Job Level and Categories__ with the inference from the __Communication Asessment Score__ to return a final result -> Kind of like an ensemble model where it combine multi minor model to finalize an outcome
 
 ## Outcome
-__TBA__
+Web-App Dashboard: [Communication Level](https://communication-level.herokuapp.com)
