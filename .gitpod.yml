@@ -1,4 +1,2 @@
 tasks:
   - init: pip install requirements.txt
-    command: cd ./streamlit
-  - command: streamlit run main.py
